@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background:  #FBC02D;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #FBC02D
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+button:focus {
+    box-shadow: none;
+    /* background-color: #815e07; */
+ 
+}
+
+.menu-dropdown {
+    @apply w-52 absolute z-10 left-0 top-[105px] hidden group-hover:block bg-[#FBAF2B] text-white px-3 pb-3 shadow-lg transition-all duration-300 ease-out transform opacity-0 group-hover:opacity-100 group-hover:translate-y-2;
+}
+
+.menu-list {
+    @apply hover:text-[#b76706] block mt-3 font-normal;
+}
+
+
+  
+
+  
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.swiper-pagination-bullet-active {
+    background-color: #FBC02D !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #FBC02D !important;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.swiper-scrollbar {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    @apply block;
+}
+
+.dropdown-content {
+    @apply hidden absolute top-[38px] left-0 bg-[#FDEAB3] mt-1 space-y-[5px] shadow-lg p-2 max-h-[300px];
+    @apply overflow-y-auto;
+}
+
+.dropdown-content li {
+    @apply bg-primary-800 p-2 rounded-lg hover:bg-[#FDEAB3];
+}
+
+.dropdown-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+    background-color:#FEF4D7;
+}
+
+.dropdown-content::-webkit-scrollbar-track {
+    @apply bg-primary-600;
+}
+
+.dropdown-content {
+    scrollbar-width: thin;
+    scrollbar-color: var(--tw-bg-primary-700) var(--tw-bg-primary-600);
+}
+
+
+
+.testimonials {
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-size: medium;
+    }
+}
+
+.youtube {
+    background-image: url("https://dpskollam.com/wp-content/uploads/2019/08/parallax2.jpg");
+}

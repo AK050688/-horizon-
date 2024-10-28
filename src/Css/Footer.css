@@ -1,0 +1,41 @@
+.footer {
+    background-color: #fff7e8;
+    /* background-image: url(../assets/footer-bg.webp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 17rem;
+    img {
+        width: 100%;
+    }
+}
+
+.quick-links,
+.contact-info,
+.map-container {
+    margin: 0 20px;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 14rem;
+    }
+}

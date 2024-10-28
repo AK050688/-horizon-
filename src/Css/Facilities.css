@@ -1,0 +1,79 @@
+
+.facilities-heading {
+    background-color: #2d3748;
+    background-image: url('../assets/footer-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem; 
+    color: white; 
+}
+  
+  
+
+  .facilities-heading p {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin: 0;
+  }
+  
+ 
+  .facilities-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+
+  .facility-item {
+    flex: 1 1 calc(50% - 40px); 
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  .facility-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+
+  .facility-item:hover img {
+    transform: scale(1.1); 
+  }
+  
+ 
+  .facility-item p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  
+  /* For small screens (mobile) */
+  @media (max-width: 767px) {
+    .facility-item {
+      flex: 1 1 100%; 
+    }
+  }
+  
+  /* For tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .facility-item {
+      flex: 1 1 calc(50% - 20px); 
+    }
+  }
+  
+  /* For larger screens (desktops) */
+  @media (min-width: 1024px) {
+    .facility-item {
+      flex: 1 1 calc(50% - 40px); 
+    }
+  }
+  

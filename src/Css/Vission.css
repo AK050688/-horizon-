@@ -1,0 +1,22 @@
+.vision {
+    background-color: #2d3748;
+    background-image: url('../assets/footer-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem; 
+    color: white; 
+   
+}
+
+.vision p {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin: 0;
+  
+}
+
+.image img{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

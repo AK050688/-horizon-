@@ -1,0 +1,189 @@
+
+.headline {
+    background-color: #2d3748;
+    background-image: url('../assets/footer-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem; 
+    color: white; 
+}
+
+.primary-text {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.text-primary-list {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+.text-list h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.bolder-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.image-overlay-wrapper, .image-overlay-wrapper-right {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.primary-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.image-overlay-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.4); 
+    border-radius: 8px;
+    width: 90%; 
+    max-width: 500px;
+}
+
+.image-overlay-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+.image-overlay-content-right {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: white;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.4); 
+    border-radius: 8px;
+    width: 90%; 
+    max-width: 500px;
+}
+
+.image-overlay-content-right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+.overlay-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 2rem; 
+}
+
+.overlay-list li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.overlay-list-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+/* Responsive Styles */
+
+/* Mobile Devices (up to 600px) */
+@media (max-width: 600px) {
+    .headline {
+        padding: 2rem 1rem;
+    }
+
+    .primary-text {
+        font-size: 1.5rem;
+    }
+
+    .text-primary-list {
+        padding: 20px;
+    }
+
+    .image-overlay-content, .image-overlay-content-right {
+        top: 5%; 
+        left: 5%; 
+        right: 5%;
+        width: 90%;
+    }
+
+    .overlay-list-container {
+        flex-direction: column; 
+    }
+
+    .overlay-list {
+        margin-right: 0; 
+    }
+}
+
+/* Tablets (601px to 992px) */
+@media (min-width: 601px) and (max-width: 992px) {
+    .headline {
+        padding: 3rem 1.5rem;
+    }
+
+    .primary-text {
+        font-size: 1.75rem;
+    }
+
+    .text-primary-list {
+        padding: 30px;
+    }
+
+    .overlay-list-container {
+        flex-direction: row; 
+    }
+
+    .overlay-list {
+        margin-right: 1rem; 
+    }
+}
+
+/* Desktop (993px and above) */
+@media (min-width: 993px) {
+    .headline {
+        padding: 4rem 2rem;
+    }
+
+    .primary-text {
+        font-size: 2rem;
+    }
+
+    .text-primary-list {
+        padding: 40px;
+    }
+
+    .image-overlay-content, .image-overlay-content-right {
+        top: 10%; 
+    }
+
+    .overlay-list-container {
+        flex-direction: row; 
+    }
+
+    .overlay-list {
+        margin-right: 2rem; 
+    }
+}

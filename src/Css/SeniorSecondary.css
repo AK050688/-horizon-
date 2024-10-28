@@ -1,0 +1,88 @@
+
+
+.headline {
+    background-color: #2d3748;
+    background-image: url('../assets/footer-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem; 
+    color: white; 
+}
+
+.primary-text {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+
+.awards-section {
+    margin: 20px 0;
+}
+
+
+.awards-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.awards-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+.awards-list li {
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    .headline {
+        padding: 15px;
+    }
+
+    .primary-text {
+        font-size: 1.5rem;
+    }
+
+    .awards-heading {
+        font-size: 1.5rem;
+    }
+
+    .awards-list {
+        font-size: 1.1rem;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .senior-secondary-container {
+        padding: 10px;
+    }
+
+    .headline {
+        padding: 10px;
+    }
+
+    .primary-text {
+        font-size: 1.2rem;
+    }
+
+    .awards-heading {
+        font-size: 1.3rem;
+    }
+
+    .awards-list {
+        font-size: 1rem;
+    }
+}

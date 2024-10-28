@@ -1,0 +1,88 @@
+.hostel-heading{
+    background-color: #2d3748;
+    background-image: url('../assets/footer-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem; 
+    color: white; 
+}
+.hostel-heading p{
+    font-size: 2rem; 
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.hostel-heading p {
+    font-size: 2rem;
+   
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.hostel-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+.hostel-images {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 15px;
+}
+
+.hostel-images img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.related-posts {
+    margin-top: 40px;
+}
+
+.related-posts h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.related-images {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.related-images img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* For tablets */
+@media (min-width: 768px) {
+    .hostel-images {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .related-images {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+/* For large screens */
+@media (min-width: 1024px) {
+    .hostel-images {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .related-images {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}

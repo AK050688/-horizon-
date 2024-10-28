@@ -1,0 +1,164 @@
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+  }
+  
+ 
+  .image-wrapper img {
+    max-height: 24rem; 
+    width: 100%;
+    object-fit: cover;
+  }
+  
+ 
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 1000;
+    min-width: 150px;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 4px 0;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+  
+
+  /* =========================== */
+  .custom-section {
+    width: 100%;
+    padding: 36px;
+  }
+  
+  .slider-container {
+    width: 100%; 
+
+    height: 300px;
+  }
+  
+  .slider-content {
+    padding: 20px; 
+  }
+  
+  .slider-control {
+    z-index: 10; 
+  }
+  
+  .dots {
+    margin-top: 10px; 
+  }
+  
+  .badge-image-container {
+    position: relative; 
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5; 
+  }
+
+  /* ======================================================== */
+.custom-section{
+    background-color:#FBAF2B
+}
+  .opportunity-section {
+    background-color:#FBAF2B
+    
+  }
+  
+  .text-container h3 {
+    font-size: 1.5rem; 
+  }
+  
+  .text-container p {
+    font-size: 1.125rem; 
+  }
+  
+  .video-container iframe {
+    border-radius: 0.5rem; 
+  }
+  /* ===================================================== */
+  
+
+
+
+  .new-section {
+    background-color: #f0ebeb; 
+    padding: 7rem 0; 
+  }
+  .text-panel{
+
+    padding-bottom: 7rem ;
+    margin: auto;
+  }
+  
+  .text-container {
+    margin-bottom: 0; 
+  }
+  
+  .text-container h2 {
+    font-size: 2rem; 
+    margin-bottom: 0.5rem; 
+  }
+  
+  .text-container p {
+    font-size: 1.125rem; 
+  }
+  
+  .image-containers  {
+    margin-top: 0; 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+    gap: 1.5rem; 
+  }
+  
+  .circle-image-container {
+    position: relative;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .circle-image {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    border: 5px solid white; 
+    object-fit: cover; 
+  }
+  
+  .image-caption {
+    margin-top: 0.5rem; 
+    text-align: center; 
+  }
+  
+  .image-caption h4 {
+    font-size: 1rem; 
+  }
+  
+  .image-caption p {
+    font-size: 0.875rem; 
+    color: #6B7280; 
+  }
+  

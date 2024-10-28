@@ -1,0 +1,220 @@
+
+.heading {
+    background-color: #2d3748;
+    background-image: url('../assets/footer-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem; 
+    color: white; 
+  }
+  
+  .heading p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .heading-kinda1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+ 
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+
+  .dps-kindergarten-info {
+    margin: 20px 0;
+  }
+  
+  .kindergarten-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .kindergarten-images img {
+    width: 30%; 
+    margin: 0 10px;
+  }
+  
+
+  .curriculum-description {
+    margin: 20px 0;
+  }
+  
+ 
+  .kindergarten-locations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .location-card {
+    width: 45%;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .apply-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .gallery-images {
+    width: 45%; 
+    margin: 10px;
+  }
+  
+  
+  .youtube-links {
+    margin: 20px 0;
+  }
+  
+  .youtube-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .youtube-container a {
+    margin: 10px;
+    text-decoration: none;
+    color: #4CAF50; 
+  }
+  
+
+  .daily-activities,
+  .admission-info {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .activities-description,
+  .admission-description {
+    text-align: center;
+  }
+  
+  .overlay {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:transparent;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: auto;
+  }
+  
+  .overlay h1, .overlay p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .transparent-table {
+    width: 80%;
+    margin-top: 10px; 
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px; 
+  }
+  
+  .transparent-table th,
+  .transparent-table td {
+    padding: 8px;
+    text-align: left; 
+    border: 1px solid rgba(255, 255, 255, 0.8); 
+    color: #333; 
+  }
+  
+  .transparent-table th {
+    background-color: rgba(76, 175, 80, 0.8); 
+    color: white; 
+  }
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 767px) { /* Mobile devices */
+    .heading p {
+      font-size: 24px;
+    }
+  
+    .kindergarten-images img,
+    .gallery-images img {
+      width: 90%; 
+      margin: 10px 0;
+    }
+  
+    .location-card {
+      width: 90%; 
+    }
+  
+    .overlay h1 {
+      font-size: 20px;
+    }
+  
+    .overlay p, table th, table td {
+      font-size: 14px; 
+    }
+    .transparent-table{
+   display: none;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) { /* Tablets */
+    .heading p {
+      font-size: 26px;
+    }
+  
+    .kindergarten-images img,
+    .gallery-images img {
+      width: 45%; 
+    }
+  
+    .location-card {
+      width: 45%; 
+    }
+  
+    .overlay h1 {
+      font-size: 22px;
+    }
+  }
+  
+  @media (min-width: 1024px) { 
+    .heading p {
+      font-size: 30px;
+    }
+  }
+  

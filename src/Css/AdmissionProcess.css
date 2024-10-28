@@ -1,0 +1,171 @@
+
+.admission-heading  {
+    background-color: #2d3748;
+    background-image: url('../assets/footer-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem; 
+    color: white; 
+  }
+  
+
+  .admission-heading p {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 50px;
+  }
+  
+  .step {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  
+  .admission-details {
+    background-color: #ffffff;
+    padding: 80px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admission-details p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .admission-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .admission-details li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+
+  .eligibility-section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eligibility-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  
+  .tc-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tc-buttons button {
+    background-color: #1a8851;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tc-buttons button:hover {
+    background-color: #1a8851;
+  }
+  
+  /* Responsive Design */
+  
+  /* For small screens (mobile) */
+  @media (max-width: 767px) {
+    .steps {
+      flex-direction: column;
+    }
+  
+    .step {
+      margin-bottom: 20px;
+    }
+  
+    table, th, td {
+      font-size: 0.9rem;
+    }
+  
+    .tc-buttons {
+      flex-direction: column;
+    }
+  
+    .tc-buttons button {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* For tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .steps {
+      flex-direction: column;
+    }
+  
+    .step {
+      margin-bottom: 20px;
+    }
+  
+    table, th, td {
+      font-size: 0.9rem;
+    }
+  }
+  

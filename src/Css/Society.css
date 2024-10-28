@@ -1,0 +1,132 @@
+.society {
+    background-color: #2d3748;
+    background-image: url('../assets/footer-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem;
+    color: white;
+}
+
+.society div {
+    max-width: 1350px;
+    margin: 0 auto;
+
+    p {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+.dividercostum {
+    background-color: #e8e8e8;
+}
+
+.sectioncostum {
+    max-width: 1350px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.imagelogo {
+    width: 35%;
+}
+
+.societysaintmichal {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Styling for the text section */
+.text-section-society {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0 2rem;
+    padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .sectioncostum {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imagelogo {
+        width: 50%;
+    }
+
+    .textareasection {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .societysaintmichal {
+        font-size: 1rem;
+    }
+
+    .section-column {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sectioncostum {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .imagelogo {
+        width: 70%;
+    }
+
+    .textareasection {
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+
+    .textsection p {
+        font-size: 1rem;
+    }
+
+    .eventpic img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .textsection{
+        margin: 1rem 0;
+    }
+    .imagelogo {
+        width: 90%;
+
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .textareasection p {
+        padding-inline: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .textsection p {
+        font-size: 0.9rem;
+    }
+
+
+    .sectioncostum {
+        padding: 1rem 0;
+    }
+}
